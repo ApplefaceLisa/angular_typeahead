@@ -1,0 +1,8 @@
+<input class="form-control" type="text" ng-model="model.name" placeholder="input user name" ng-keyup = "handleInput(model.name)"/><br/>
+<div class="form-control" ng-hide="hide">
+	<div class="row" ng-repeat="user in users track by $index" ng-click="handleSelection(user)" style="cursor:pointer" ng-class="{active:isCurrent($index)}" ng-mouseenter="setCurrent($index)">
+        <p class="col-4">{{user.name}}</p>
+        <p class="col-4">{{user.company}}</p>
+        <p class="col-4">{{user.email}}</p>
+	</div>
+</div>

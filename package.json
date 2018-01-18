@@ -1,0 +1,22 @@
+{
+  "name": "project_4",
+  "version": "1.0.0",
+  "description": "angular typeahead project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "type-ahead"
+  ],
+  "author": "Lisa Li",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.4.5"
+  }
+}
